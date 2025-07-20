@@ -10,14 +10,12 @@ A sleek and functional Calculator built using **React.js** with custom manual CS
 
 
 ## 📸 Screenshot
+![Uploading Screenshot 2025-07-20 at 7.29.54 PM.png…]()
 
-> *(Add your deployed app screenshot here)*  
-> Example:  
-> <img width="1470" height="956" alt="Calculator Screenshot" src="https://your-screenshot-link.com" />
 
 ## 🚀 Live Demo
 
-🔗 https://your-calculator.vercel.app/ *(Replace with your actual deployed link)*
+🔗 my-calculator-six-silk.vercel.app
 
 ## 🧰 Tech Stack
 
