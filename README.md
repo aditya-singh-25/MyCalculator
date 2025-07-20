@@ -15,7 +15,7 @@ A sleek and functional Calculator built using **React.js** with custom manual CS
 
 ## 🚀 Live Demo
 
-🔗 my-calculator-six-silk.vercel.app
+🔗 https://my-calculator-six-silk.vercel.app/
 
 ## 🧰 Tech Stack
 
