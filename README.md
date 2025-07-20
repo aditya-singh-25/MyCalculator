@@ -7,8 +7,7 @@ A sleek and functional Calculator built using **React.js** with custom manual CS
 - ➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division  
 - 🧼 Clear and ← Backspace buttons  
 - 🟰 Evaluate expression instantly  
-- 🧠 Smart expression handling with `eval()`  
-- 🎨 Modern and responsive UI with custom CSS (no Tailwind)
+
 
 ## 📸 Screenshot
 
