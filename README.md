@@ -1,4 +1,4 @@
-# 🧮 React Calculator
+# 🧮  Calculator
 
 A sleek and functional Calculator built using **React.js** with custom manual CSS. Perform basic arithmetic operations with a clean user interface — no Tailwind, no clutter, just pure logic! 🔢
 
