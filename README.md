@@ -10,7 +10,8 @@ A sleek and functional Calculator built using **React.js** with custom manual CS
 
 
 ## 📸 Screenshot
-<img width="1470" height="956" alt="Screenshot 2025-07-20 at 7 29 54 PM" src="https://github.com/user-attachments/assets/26402947-ed52-4548-82d1-fb2ea31b183b" />
+<img width="1470" height="956" alt="Screenshot 2025-07-21 at 12 45 38 AM" src="https://github.com/user-attachments/assets/f6010332-0fa9-476d-a6fc-e48a7508fad7" />
+
 
 ## 🚀 Live Demo
 
