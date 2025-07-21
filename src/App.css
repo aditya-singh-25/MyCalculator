@@ -13,10 +13,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
-
 .calculator {
   background: #ffffff;
   padding: 20px;
@@ -25,16 +21,24 @@ h1 {
   width: 300px;
 }
 
-.calculator input {
-  width: 100%;
-  height: 50px;
-  font-size: 24px;
-  text-align: right;
+.display {
+  background: #f9f9f9;
+  border: 2px solid #ddd;
   padding: 10px;
-  border: none;
-  border-bottom: 2px solid #ccc;
+  border-radius: 10px;
   margin-bottom: 10px;
-  outline: none;
+  text-align: right;
+}
+
+.expression {
+  font-size: 20px;
+  color: #333;
+}
+
+.result {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
 }
 
 .buttons {

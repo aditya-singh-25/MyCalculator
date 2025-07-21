@@ -3,13 +3,16 @@ import './App.css';
 
 function Calculator() {
   const [input, setInput] = useState('');
+  const [result, setResult] = useState('');
 
   const handleClick = (value) => {
     setInput((prev) => prev + value);
+    setResult(''); // Clear previous result when typing new input
   };
 
   const clear = () => {
     setInput('');
+    setResult('');
   };
 
   const backspace = () => {
@@ -18,15 +21,20 @@ function Calculator() {
 
   const calculate = () => {
     try {
-      setInput(eval(input).toString()); // you can use a safe eval lib if needed
+      const evalResult = eval(input).toString();
+      setResult(evalResult);
     } catch {
-      setInput('Error');
+      setResult('Error');
     }
   };
 
   return (
     <div className="calculator">
-      <input type="text" value={input} readOnly />
+      <div className="display">
+        <div className="expression">{input}</div>
+        <div className="result">{result ? '= ' + result : ''}</div>
+      </div>
+
       <div className="buttons">
         <button onClick={clear} className="span-two">C</button>
         <button onClick={backspace}>←</button>
